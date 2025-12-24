@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LeetCodeMetrics</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="glasscard">
+
+        <!-- Heading -->
+        <h1 class="title">LeetMetrics</h1>
+<h1 id="head1">Enter your Username below</h1>
+        <!-- Input Section -->
+        <div class="input-section">
+            <input type="text" placeholder="Enter LeetCode Username" id="username-input" value="Rijwanullah">
+            <button id="search-btn">Search</button>
+        </div>
+
+        <!-- Progress Circles -->
+       <div class="stats-container">
+         
+
+        <div class="progress-section">
+
+            <div class="progress-card">
+                <div class="easy circle">
+                    <span id="easy-label"></span>
+                    <p>Easy</p>
+                </div>
+            </div>
+
+            <div class="progress-card">
+                <div class="medium circle">
+                    <span id="medium-label"></span>
+                 <p>Medium</p>
+                </div>
+            </div>
+
+            <div class="progress-card ">
+                <div class="hard circle">
+                    <span id="hard-label"></span>
+                  <p>Hard</p>
+                </div>
+            </div>
+            </div>
+      
+       <div class="stats-card">
+          <!-- there will be cards-->
+          <div id="rank" class="statbox"><span id="rank-label"></span><p>Rank</p>
+          </div>
+           <div id="accept"class="statbox"><span id="accept-label"></span><p>Acceptance rate</p></div>        
+           <div id="contribution"class="statbox"><span id="contri-label"></span><p>Contribution point</p></div>
+           <div id="reputation"class="statbox"><span id="repute-label"></span>reputation</div>
+           
+        </div>
+       </div>
+    </div>
+    
+    <script src="js/index.js"></script>
+</body>
+</html>
